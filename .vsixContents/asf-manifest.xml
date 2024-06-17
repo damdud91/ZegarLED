@@ -1,0 +1,15 @@
+﻿<AsfContentProvider Version="1.0.0">
+  <Identifier Id="ea64df82-03e3-480b-8a4a-2eee88e72093">
+    <FollowFolderStructure>True</FollowFolderStructure>
+  </Identifier>
+  <AsfContent Type="zip" Path="vsixcontents.zip">
+    <Content>
+      <Version>1.0.0</Version>
+      <HelpURL></HelpURL>
+      <Locator />
+      <DbXMLPath>content.xml.cache</DbXMLPath>
+      <Description>Description of the main features. Mention also the supported part number(s), the board it is running on and the compiler it supports</Description>
+      <IsVisible>True</IsVisible>
+    </Content>
+  </AsfContent>
+</AsfContentProvider>

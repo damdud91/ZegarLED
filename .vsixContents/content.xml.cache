@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asf xmlversion="1.0">
+  <module id="mid.b54bee98-18c0-4841-9e02-37490f7e0f54.application.zegarek" caption="Zegarek" type="application" basedir="Zegarek" fromfile="Zegarek\asf.xml">
+    <info type="gui-flag" value="move-to-root" />
+    <build type="c-source" value="Zegarek\ADC.c" />
+    <build type="header-file" value="Zegarek\ADC.h" />
+    <build type="header-file" value="Zegarek\Animacje.h" />
+    <build type="c-source" value="Zegarek\DS18B20.c" />
+    <build type="header-file" value="Zegarek\DS18B20.h" />
+    <build type="c-source" value="Zegarek\DS3231.c" />
+    <build type="header-file" value="Zegarek\DS3231.h" />
+    <build type="c-source" value="Zegarek\OneWire.c" />
+    <build type="header-file" value="Zegarek\OneWire.h" />
+    <build type="c-source" value="Zegarek\SPI.c" />
+    <build type="header-file" value="Zegarek\SPI.h" />
+    <build type="c-source" value="Zegarek\TWI_I2C.c" />
+    <build type="header-file" value="Zegarek\TWI_I2C.h" />
+    <build type="c-source" value="Zegarek\Wys_LED.c" />
+    <build type="header-file" value="Zegarek\Wys_LED.h" />
+    <build type="c-source" value="Zegarek\Zegarek.c" />
+    <build type="header-file" value="Zegarek\Zegarek.h" />
+    <device-support value="atmega168pa" />
+  </module>
+  <project id="pid.b54bee98-18c0-4841-9e02-37490f7e0f54" caption="Zegarek - atmega168pa" type="normal" workspace-name="zegarek" force-caption="true" force-description="true" basedir="Zegarek" fromfile="Zegarek\asf.xml">
+    <device-support value="atmega168pa" />
+    <info type="gui-flag" value="move-to-root" />
+    <info type="description" value="summary">Description of the main features. Mention also the supported part number(s), the board it is running on and the compiler it supports</info>
+    <require idref="mid.b54bee98-18c0-4841-9e02-37490f7e0f54.application.zegarek" />
+    <build type="library" value="libm" subtype="compiler" toolchain="avrgcc" />
+    <build type="define" value="" name="DEBUG" />
+    <build type="define" value="20000000" name="F_CPU" />
+    <build type="online-help" value="" subtype="module-help-page" />
+    <generator value="xdk_avrgcc" />
+    <toolchain-config name="avrgcc.common.outputfiles.hex" value="True" toolchain="avrgcc" />
+    <toolchain-config name="avrgcc.common.outputfiles.lss" value="True" toolchain="avrgcc" />
+    <toolchain-config name="avrgcc.common.outputfiles.eep" value="True" toolchain="avrgcc" />
+    <toolchain-config name="avrgcc.common.outputfiles.srec" value="True" toolchain="avrgcc" />
+    <toolchain-config name="avrgcc.common.outputfiles.usersignatures" value="False" toolchain="avrgcc" />
+    <toolchain-config name="avrgcc.compiler.general.ChangeDefaultCharTypeUnsigned" value="True" toolchain="avrgcc" />
+    <toolchain-config name="avrgcc.compiler.general.ChangeDefaultBitFieldUnsigned" value="True" toolchain="avrgcc" />
+    <toolchain-config name="avrgcc.compiler.optimization.level" value="Optimize (-O1)" toolchain="avrgcc" />
+    <toolchain-config name="avrgcc.compiler.optimization.PackStructureMembers" value="True" toolchain="avrgcc" />
+    <toolchain-config name="avrgcc.compiler.optimization.AllocateBytesNeededForEnum" value="True" toolchain="avrgcc" />
+    <toolchain-config name="avrgcc.compiler.optimization.DebugLevel" value="Default (-g2)" toolchain="avrgcc" />
+    <toolchain-config name="avrgcc.compiler.warnings.AllWarnings" value="True" toolchain="avrgcc" />
+    <toolchain-config name="avrgcc.assembler.debugging.DebugLevel" value="Default (-Wa,-g)" toolchain="avrgcc" />
+  </project>
+</asf>

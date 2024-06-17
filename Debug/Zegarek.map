@@ -1,0 +1,848 @@
+Archive member included because of file (symbol)
+
+c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_divmodhi4.o)
+                              DS18B20.o (__divmodhi4)
+c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_divmodsi4.o)
+                              TWI_I2C.o (__divmodsi4)
+c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_negsi2.o)
+                              c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_divmodsi4.o) (__negsi2)
+c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+                              c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm168pa.o (exit)
+c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_copy_data.o)
+                              Wys_LED.o (__do_copy_data)
+c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_clear_bss.o)
+                              DS18B20.o (__do_clear_bss)
+c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_udivmodhi4.o)
+                              c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_divmodhi4.o) (__udivmodhi4)
+c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_udivmodsi4.o)
+                              c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_divmodsi4.o) (__udivmodsi4)
+
+Allocating common symbols
+Common symbol       size              file
+
+FuncLong2           0x2               Zegarek.o
+liczba_czujnikow    0x1               DS18B20.o
+FuncLong3           0x2               Zegarek.o
+Timer3              0x1               Zegarek.o
+czujniki            0xd               DS18B20.o
+FuncLong1           0x2               Zegarek.o
+Timer4              0x1               Zegarek.o
+FuncShort1          0x2               Zegarek.o
+czas                0x7               DS3231.o
+Timer2              0x2               Zegarek.o
+FuncShort2          0x2               Zegarek.o
+temperatura         0x2               DS3231.o
+DisplayFlag         0x1               Zegarek.o
+Timer5              0x1               Zegarek.o
+Timer1              0x1               Zegarek.o
+MenuGlowne          0x1               Zegarek.o
+FuncShort3          0x2               Zegarek.o
+
+Discarded input sections
+
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm168pa.o
+ .text          0x00000000        0x0 ADC.o
+ .bss           0x00000000        0x0 ADC.o
+ .text          0x00000000        0x0 DS18B20.o
+ .bss           0x00000000        0x0 DS18B20.o
+ .text.DS18B20_WaitForMeas
+                0x00000000       0x22 DS18B20.o
+ .text.DS18B20_ReadMeas
+                0x00000000       0x2e DS18B20.o
+ .text          0x00000000        0x0 DS3231.o
+ .bss           0x00000000        0x0 DS3231.o
+ .text.DS3231_gettemp
+                0x00000000       0x66 DS3231.o
+ .text          0x00000000        0x0 OneWire.o
+ .bss           0x00000000        0x0 OneWire.o
+ .text.OneWire_DelayNormal
+                0x00000000       0x16 OneWire.o
+ .text          0x00000000        0x0 TWI_I2C.o
+ .bss           0x00000000        0x0 TWI_I2C.o
+ .text          0x00000000        0x0 SPI.o
+ .bss           0x00000000        0x0 SPI.o
+ .text          0x00000000        0x0 Wys_LED.o
+ .bss           0x00000000        0x0 Wys_LED.o
+ .text          0x00000000        0x0 Zegarek.o
+ .bss           0x00000000        0x0 Zegarek.o
+ .text.RegisterClickFunc
+                0x00000000       0x42 Zegarek.o
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_divmodhi4.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_divmodhi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_divmodhi4.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_divmodhi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_divmodhi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_divmodhi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_divmodhi4.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_divmodhi4.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_divmodsi4.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_divmodsi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_divmodsi4.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_divmodsi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_divmodsi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_divmodsi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_divmodsi4.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_divmodsi4.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_negsi2.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_negsi2.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_negsi2.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_negsi2.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_negsi2.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_negsi2.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_negsi2.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_negsi2.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_copy_data.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_copy_data.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_clear_bss.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_udivmodhi4.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_udivmodhi4.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_udivmodsi4.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_udivmodsi4.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+user_signatures  0x00850000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm168pa.o
+LOAD ADC.o
+LOAD DS18B20.o
+LOAD DS3231.o
+LOAD OneWire.o
+LOAD TWI_I2C.o
+LOAD SPI.o
+LOAD Wys_LED.o
+LOAD Zegarek.o
+START GROUP
+LOAD c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a
+END GROUP
+START GROUP
+LOAD c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a
+LOAD c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a
+LOAD c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a
+END GROUP
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x1c9e
+ *(.vectors)
+ .vectors       0x00000000       0x68 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm168pa.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x00000068                . = ALIGN (0x2)
+                0x00000068                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000068        0x0 linker stubs
+ *(.trampolines*)
+                0x00000068                __trampolines_end = .
+ *(.progmem*)
+ .progmem.data.znaki
+                0x00000068       0x10 Wys_LED.o
+                0x00000068                znaki
+ .progmem.data.gamma_correctionR
+                0x00000078       0x20 Zegarek.o
+                0x00000078                gamma_correctionR
+ .progmem.data.waz
+                0x00000098      0x2d0 Zegarek.o
+                0x00000098                waz
+ .progmem.data.duszki
+                0x00000368      0x2d0 Zegarek.o
+                0x00000368                duszki
+ .progmem.data.tiktik
+                0x00000638      0x2d0 Zegarek.o
+                0x00000638                tiktik
+                0x00000908                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000908                __ctors_start = .
+ *(.ctors)
+                0x00000908                __ctors_end = .
+                0x00000908                __dtors_start = .
+ *(.dtors)
+                0x00000908                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000908        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm168pa.o
+                0x00000908                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000908        0xc c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm168pa.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000914       0x16 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_copy_data.o)
+                0x00000914                __do_copy_data
+ .init4         0x0000092a       0x10 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_clear_bss.o)
+                0x0000092a                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x0000093a        0x8 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm168pa.o
+ *(.init9)
+ *(.text)
+ .text          0x00000942        0x4 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm168pa.o
+                0x00000942                __vector_22
+                0x00000942                __vector_1
+                0x00000942                __vector_24
+                0x00000942                __vector_12
+                0x00000942                __bad_interrupt
+                0x00000942                __vector_6
+                0x00000942                __vector_3
+                0x00000942                __vector_23
+                0x00000942                __vector_25
+                0x00000942                __vector_13
+                0x00000942                __vector_17
+                0x00000942                __vector_19
+                0x00000942                __vector_7
+                0x00000942                __vector_5
+                0x00000942                __vector_4
+                0x00000942                __vector_9
+                0x00000942                __vector_2
+                0x00000942                __vector_21
+                0x00000942                __vector_15
+                0x00000942                __vector_8
+                0x00000942                __vector_10
+                0x00000942                __vector_16
+                0x00000942                __vector_18
+                0x00000942                __vector_20
+                0x00000946                . = ALIGN (0x2)
+ *(.text.*)
+ .text.InitADC  0x00000946       0x34 ADC.o
+                0x00000946                InitADC
+ .text.DS18B20_CRC
+                0x0000097a       0x3c DS18B20.o
+                0x0000097a                DS18B20_CRC
+ .text.DS18B20_Reg_GetBit
+                0x000009b6       0x50 DS18B20.o
+                0x000009b6                DS18B20_Reg_GetBit
+ .text.DS18B20_RegistrationSensors
+                0x00000a06       0xf0 DS18B20.o
+                0x00000a06                DS18B20_RegistrationSensors
+ .text.DS18B20_AdresSensor
+                0x00000af6       0x34 DS18B20.o
+                0x00000af6                DS18B20_AdresSensor
+ .text.DS18B20_GetPowerStatus
+                0x00000b2a       0x16 DS18B20.o
+                0x00000b2a                DS18B20_GetPowerStatus
+ .text.DS18B20_GiveSettings
+                0x00000b40       0x44 DS18B20.o
+                0x00000b40                DS18B20_GiveSettings
+ .text.DS18B20_Init
+                0x00000b84       0x32 DS18B20.o
+                0x00000b84                DS18B20_Init
+ .text.DS18B20_StartMeas
+                0x00000bb6       0x12 DS18B20.o
+                0x00000bb6                DS18B20_StartMeas
+ .text.DS18B20_ReadMeasSingle
+                0x00000bc8      0x106 DS18B20.o
+                0x00000bc8                DS18B20_ReadMeasSingle
+ .text.InitDS3231
+                0x00000cce       0x3c DS3231.o
+                0x00000cce                InitDS3231
+ .text.DS3231_getdatetime
+                0x00000d0a       0x6c DS3231.o
+                0x00000d0a                DS3231_getdatetime
+ .text.dectobcd
+                0x00000d76       0x26 DS3231.o
+                0x00000d76                dectobcd
+ .text.DS3231_givedatetime
+                0x00000d9c       0x74 DS3231.o
+                0x00000d9c                DS3231_givedatetime
+ .text.OneWire_Reset
+                0x00000e10       0x30 OneWire.o
+                0x00000e10                OneWire_Reset
+ .text.OneWire_WriteByte
+                0x00000e40       0x2e OneWire.o
+                0x00000e40                OneWire_WriteByte
+ .text.OneWire_ReadByte
+                0x00000e6e       0x2c OneWire.o
+                0x00000e6e                OneWire_ReadByte
+ .text.OneWire_WriteBit
+                0x00000e9a       0x26 OneWire.o
+                0x00000e9a                OneWire_WriteBit
+ .text.OneWire_ReadBit
+                0x00000ec0       0x26 OneWire.o
+                0x00000ec0                OneWire_ReadBit
+ .text.TWI_start
+                0x00000ee6       0x12 TWI_I2C.o
+ .text.TWI_write
+                0x00000ef8       0x16 TWI_I2C.o
+ .text.TWI_SetBitrate
+                0x00000f0e       0x30 TWI_I2C.o
+                0x00000f0e                TWI_SetBitrate
+ .text.TWI_write_buf
+                0x00000f3e       0x52 TWI_I2C.o
+                0x00000f3e                TWI_write_buf
+ .text.TWI_read_buf
+                0x00000f90       0x96 TWI_I2C.o
+                0x00000f90                TWI_read_buf
+ .text.InitSpi  0x00001026        0x8 SPI.o
+                0x00001026                InitSpi
+ .text.SendSpiOne
+                0x0000102e       0x40 SPI.o
+                0x0000102e                SendSpiOne
+ .text.SendSpi  0x0000106e       0x36 SPI.o
+                0x0000106e                SendSpi
+ .text.InitWys_LED
+                0x000010a4       0x18 Wys_LED.o
+                0x000010a4                InitWys_LED
+ .text.__vector_14
+                0x000010bc       0xca Wys_LED.o
+                0x000010bc                __vector_14
+ .text.ShowDate
+                0x00001186       0x18 Zegarek.o
+                0x00001186                ShowDate
+ .text.ShowShift
+                0x0000119e       0x46 Zegarek.o
+                0x0000119e                ShowShift
+ .text.ChangeAnimation
+                0x000011e4       0x60 Zegarek.o
+                0x000011e4                ChangeAnimation
+ .text.ChangeUp
+                0x00001244       0x90 Zegarek.o
+                0x00001244                ChangeUp
+ .text.ChangeDown
+                0x000012d4       0x8c Zegarek.o
+                0x000012d4                ChangeDown
+ .text.ShowMenu
+                0x00001360       0x54 Zegarek.o
+                0x00001360                ShowMenu
+ .text.__vector_11
+                0x000013b4       0x82 Zegarek.o
+                0x000013b4                __vector_11
+ .text.DS3231_Event
+                0x00001436       0x1a Zegarek.o
+                0x00001436                DS3231_Event
+ .text.DS18B20_Event
+                0x00001450       0x2e Zegarek.o
+                0x00001450                DS18B20_Event
+ .text.SendSpiToWS_Event
+                0x0000147e       0xa2 Zegarek.o
+                0x0000147e                SendSpiToWS_Event
+ .text.ADC_Event
+                0x00001520      0x106 Zegarek.o
+                0x00001520                ADC_Event
+ .text.SuperDebounce
+                0x00001626       0xe8 Zegarek.o
+                0x00001626                SuperDebounce
+ .text.DisplayAnimation
+                0x0000170e      0x132 Zegarek.o
+                0x0000170e                DisplayAnimation
+ .text.main     0x00001840      0x388 Zegarek.o
+                0x00001840                main
+ .text.libgcc.div
+                0x00001bc8       0x28 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_divmodhi4.o)
+                0x00001bc8                _div
+                0x00001bc8                __divmodhi4
+ .text.libgcc.div
+                0x00001bf0       0x2e c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_divmodsi4.o)
+                0x00001bf0                __divmodsi4
+ .text.libgcc.div
+                0x00001c1e       0x10 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_negsi2.o)
+                0x00001c1e                __negsi2
+ .text.libgcc.div
+                0x00001c2e       0x28 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_udivmodhi4.o)
+                0x00001c2e                __udivmodhi4
+ .text.libgcc.div
+                0x00001c56       0x44 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_udivmodsi4.o)
+                0x00001c56                __udivmodsi4
+                0x00001c9a                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00001c9a        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+                0x00001c9a                _exit
+                0x00001c9a                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00001c9a        0x4 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00001c9e                _etext = .
+
+.data           0x00800100       0x1e load address 0x00001c9e
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800100        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm168pa.o
+ .data          0x00800100        0x0 ADC.o
+ .data          0x00800100        0x0 DS18B20.o
+ .data          0x00800100        0x0 DS3231.o
+ .data          0x00800100        0x0 OneWire.o
+ .data          0x00800100        0x0 TWI_I2C.o
+ .data          0x00800100        0x0 SPI.o
+ .data          0x00800100        0x0 Wys_LED.o
+ .data          0x00800100        0x0 Zegarek.o
+ .data          0x00800100        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_divmodhi4.o)
+ .data          0x00800100        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_divmodsi4.o)
+ .data          0x00800100        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_negsi2.o)
+ .data          0x00800100        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+ .data          0x00800100        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_copy_data.o)
+ .data          0x00800100        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_clear_bss.o)
+ .data          0x00800100        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_udivmodhi4.o)
+ .data          0x00800100        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_udivmodsi4.o)
+ *(.data*)
+ .data.wys_brightness
+                0x00800100        0x1 Wys_LED.o
+                0x00800100                wys_brightness
+ .data.cyfry    0x00800101        0x8 Wys_LED.o
+                0x00800101                cyfry
+ .data.SPIstatus
+                0x00800109       0x14 Zegarek.o
+                0x00800109                SPIstatus
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x0080011e                . = ALIGN (0x2)
+ *fill*         0x0080011d        0x1 
+                0x0080011e                _edata = .
+                0x0080011e                PROVIDE (__data_end, .)
+
+.bss            0x0080011e       0x34
+                0x0080011e                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss.power_status
+                0x0080011e        0x1 DS18B20.o
+ .bss.licznik.1663
+                0x0080011f        0x1 Wys_LED.o
+ .bss.jasnosc.1664
+                0x00800120        0x1 Wys_LED.o
+ .bss.counter.2025
+                0x00800121        0x1 Zegarek.o
+ .bss.key_state.1976
+                0x00800122        0x1 Zegarek.o
+ .bss.last_key.1977
+                0x00800123        0x1 Zegarek.o
+ .bss.ostatnia_wartosc.1957
+                0x00800124        0x2 Zegarek.o
+ .bss.Licznik.1958
+                0x00800126        0x1 Zegarek.o
+ *(COMMON)
+ COMMON         0x00800127        0xe DS18B20.o
+                0x00800127                liczba_czujnikow
+                0x00800128                czujniki
+ COMMON         0x00800135        0x9 DS3231.o
+                0x00800135                czas
+                0x0080013c                temperatura
+ COMMON         0x0080013e       0x14 Zegarek.o
+                0x0080013e                FuncLong2
+                0x00800140                FuncLong3
+                0x00800142                Timer3
+                0x00800143                FuncLong1
+                0x00800145                Timer4
+                0x00800146                FuncShort1
+                0x00800148                Timer2
+                0x0080014a                FuncShort2
+                0x0080014c                DisplayFlag
+                0x0080014d                Timer5
+                0x0080014e                Timer1
+                0x0080014f                MenuGlowne
+                0x00800150                FuncShort3
+                0x00800152                PROVIDE (__bss_end, .)
+                0x00001c9e                __data_load_start = LOADADDR (.data)
+                0x00001cbc                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800152        0x0
+                0x00800152                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00800152                PROVIDE (__noinit_end, .)
+                0x00800152                _end = .
+                0x00800152                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x30
+ *(.comment)
+ .comment       0x00000000       0x30 ADC.o
+                                 0x31 (size before relaxing)
+ .comment       0x00000000       0x31 DS18B20.o
+ .comment       0x00000000       0x31 DS3231.o
+ .comment       0x00000000       0x31 OneWire.o
+ .comment       0x00000000       0x31 TWI_I2C.o
+ .comment       0x00000000       0x31 SPI.o
+ .comment       0x00000000       0x31 Wys_LED.o
+ .comment       0x00000000       0x31 Zegarek.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x240
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 ADC.o
+ .debug_aranges
+                0x00000020       0x70 DS18B20.o
+ .debug_aranges
+                0x00000090       0x40 DS3231.o
+ .debug_aranges
+                0x000000d0       0x48 OneWire.o
+ .debug_aranges
+                0x00000118       0x40 TWI_I2C.o
+ .debug_aranges
+                0x00000158       0x30 SPI.o
+ .debug_aranges
+                0x00000188       0x28 Wys_LED.o
+ .debug_aranges
+                0x000001b0       0x90 Zegarek.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x2480
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000       0x83 ADC.o
+ .debug_info    0x00000083      0x703 DS18B20.o
+ .debug_info    0x00000786      0x44e DS3231.o
+ .debug_info    0x00000bd4      0x55b OneWire.o
+ .debug_info    0x0000112f      0x284 TWI_I2C.o
+ .debug_info    0x000013b3      0x119 SPI.o
+ .debug_info    0x000014cc      0x257 Wys_LED.o
+ .debug_info    0x00001723      0xd5d Zegarek.o
+
+.debug_abbrev   0x00000000      0xc23
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x51 ADC.o
+ .debug_abbrev  0x00000051      0x225 DS18B20.o
+ .debug_abbrev  0x00000276      0x1a8 DS3231.o
+ .debug_abbrev  0x0000041e      0x14e OneWire.o
+ .debug_abbrev  0x0000056c      0x170 TWI_I2C.o
+ .debug_abbrev  0x000006dc       0xbf SPI.o
+ .debug_abbrev  0x0000079b      0x125 Wys_LED.o
+ .debug_abbrev  0x000008c0      0x363 Zegarek.o
+
+.debug_line     0x00000000      0xe6a
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000       0xad ADC.o
+ .debug_line    0x000000ad      0x2af DS18B20.o
+ .debug_line    0x0000035c      0x136 DS3231.o
+ .debug_line    0x00000492      0x26e OneWire.o
+ .debug_line    0x00000700      0x12a TWI_I2C.o
+ .debug_line    0x0000082a       0xf1 SPI.o
+ .debug_line    0x0000091b       0xeb Wys_LED.o
+ .debug_line    0x00000a06      0x464 Zegarek.o
+
+.debug_frame    0x00000000      0x5a8
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x24 ADC.o
+ .debug_frame   0x00000024      0x18c DS18B20.o
+ .debug_frame   0x000001b0       0xdc DS3231.o
+ .debug_frame   0x0000028c       0x74 OneWire.o
+ .debug_frame   0x00000300       0x9c TWI_I2C.o
+ .debug_frame   0x0000039c       0x44 SPI.o
+ .debug_frame   0x000003e0       0x7c Wys_LED.o
+ .debug_frame   0x0000045c      0x14c Zegarek.o
+
+.debug_str      0x00000000      0x823
+ *(.debug_str)
+ .debug_str     0x00000000      0x129 ADC.o
+                                0x15d (size before relaxing)
+ .debug_str     0x00000129      0x23d DS18B20.o
+                                0x39a (size before relaxing)
+ .debug_str     0x00000366       0xe2 DS3231.o
+                                0x24d (size before relaxing)
+ .debug_str     0x00000448       0x23 OneWire.o
+                                0x20f (size before relaxing)
+ .debug_str     0x0000046b       0x51 TWI_I2C.o
+                                0x1ce (size before relaxing)
+ .debug_str     0x000004bc       0x32 SPI.o
+                                0x18f (size before relaxing)
+ .debug_str     0x000004ee       0xc7 Wys_LED.o
+                                0x22b (size before relaxing)
+ .debug_str     0x000005b5      0x26e Zegarek.o
+                                0x59b (size before relaxing)
+
+.debug_loc      0x00000000     0x150d
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x685 DS18B20.o
+ .debug_loc     0x00000685      0x2be DS3231.o
+ .debug_loc     0x00000943      0x107 OneWire.o
+ .debug_loc     0x00000a4a      0x2ff TWI_I2C.o
+ .debug_loc     0x00000d49       0x6c SPI.o
+ .debug_loc     0x00000db5      0x127 Wys_LED.o
+ .debug_loc     0x00000edc      0x631 Zegarek.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x1f0
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0x10 ADC.o
+ .debug_ranges  0x00000010       0x60 DS18B20.o
+ .debug_ranges  0x00000070       0x30 DS3231.o
+ .debug_ranges  0x000000a0       0x38 OneWire.o
+ .debug_ranges  0x000000d8       0x48 TWI_I2C.o
+ .debug_ranges  0x00000120       0x20 SPI.o
+ .debug_ranges  0x00000140       0x18 Wys_LED.o
+ .debug_ranges  0x00000158       0x98 Zegarek.o
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(Zegarek.elf elf32-avr)
+LOAD linker stubs

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AsfProjects>
+  <Project>
+    <ProjectId>pid.b54bee98-18c0-4841-9e02-37490f7e0f54</ProjectId>
+    <ProjectHelpUrl></ProjectHelpUrl>
+    <ProjectHelpPath></ProjectHelpPath>
+    <ProjectDevice>ATmega168PA</ProjectDevice>
+    <ProjectName>ZEGAREK</ProjectName>
+    <ProjectCaption>Zegarek - atmega168pa</ProjectCaption>
+    <ProjectType>normal</ProjectType>
+    <ProjectDescription>Description of the main features. Mention also the supported part number(s), the board it is running on and the compiler it supports</ProjectDescription>
+    <ProjectDeviceSeries>mega</ProjectDeviceSeries>
+    <ProjectBoardVendor></ProjectBoardVendor>
+  </Project>
+</AsfProjects>
